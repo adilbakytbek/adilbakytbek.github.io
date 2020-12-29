@@ -44,7 +44,7 @@
 				<source src="main.mp3">
 				<p>Ваш браузер не поддерживает аудио</p>
 				</audio> -->
-			<header class="main__header">
+			<header class="main__header" id="home">
 				<div class="top__line">
 					<div class="container">
 						<div class="row">
@@ -66,11 +66,11 @@
 
 									<nav class="main__nav" id="menu">
 										<ul class="main__nav-ul">
-											<li><a href="#">Home</a></li>
-											<li><a href="#">Services</a></li>
-											<li><a href="#">Equipment</a></li>
-											<li><a href="#">Locations</a></li>
-											<li><a href="#">Book the session!</a></li>
+											<li><a href="#home">Home</a></li>
+											<li><a href="#services">Services</a></li>
+											<li><a href="#equipment">Equipment</a></li>
+											<li><a href="#locations">Locations</a></li>
+											<li><a href="#book">Book the session!</a></li>
 										</ul>
 										<!-- /.main__nav-ul -->
 									</nav>
@@ -101,8 +101,8 @@
 								<p class="header__center-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, aliquam
 									lectus libero pellentesque feugiat sollicitudin. Habitant morbi ut faucibus eget nisl. At velit</p>
 								<!-- /.header__center-p -->
-								<div class="header__center-btn">
-									<a href="#" class="btn">Request call</a>
+								<div class="header__center-btn" id="callback">
+									<a href="#book" data-effect="mfp-move-horizontal" class="btn">Request call</a>
 								</div>
 								<!-- /.header__center-btn -->
 							</div>
@@ -182,57 +182,162 @@
 					<div class="row">
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/1.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/1.jpg');">
 								<h4 class="services__items-title">Recording</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/1.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Recording</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/2.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/2.jpg');">
 								<h4 class="services__items-title">Mastering</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/2.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Mastering</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/3.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/3.jpg');">
 								<h4 class="services__items-title">Mixing</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/3.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Mixing</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/4.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/4.jpg');">
 								<h4 class="services__items-title">Beat<br> Development</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/4.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Beat Development</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/5.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/5.jpg');">
 								<h4 class="services__items-title">Art Covers</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/5.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Art Covers</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/6.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/6.jpg');">
 								<h4 class="services__items-title">Music Videos</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/6.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Music Videos</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" class="services__items" style="background-image: url('images/dest/services-bg/7.jpg');">
-								<h4 class="services__items-title">Brand Development</h4>
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/7.jpg');">
+								<h4 class="services__items-title">Brand<br> Development</h4>
 								<!-- /.services__items-title -->
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="services__modal-img">
+										<img src="images/dest/services-bg/7.jpg" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Brand Development</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
 							</a> <!-- /.services__items -->
 						</div>
 						<!-- /.col-lg-4 -->
@@ -257,7 +362,7 @@
 					<!-- /.row -->
 					<div class="row">
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/1.png" alt="Microphone">
 								</div>
@@ -267,12 +372,29 @@
 									<strong>Neuman U 87, AT 2050</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/1.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Neuman U 87, AT 2050</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+
+							</a>
 							<!-- /.equipment__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/2.png" alt="Apollo Twin Duo">
 								</div>
@@ -282,12 +404,29 @@
 									<strong>Apollo Twin Duo</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/2.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Neuman U 87, AT 2050</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+
+							</a>
 							<!-- /.equipment__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/3.png" alt="Monitors">
 								</div>
@@ -297,15 +436,32 @@
 									<strong>Adam Audio A7X</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/3.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Adam Audio A7X</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+	
+							</a>
 							<!-- /.equipment__items -->
+
 						</div>
 						<!-- /.col-lg-4 -->
 					</div>
 					<!-- /.row -->
 					<div class="row">
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/4.png" alt="Subwoofer">
 								</div>
@@ -315,12 +471,29 @@
 									<strong>KRK 10S2</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/4.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Adam Audio A7X</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+
+							</a>
 							<!-- /.equipment__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/5.png" alt="Microphone">
 								</div>
@@ -330,12 +503,29 @@
 									<strong>ART Pro Audio</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/5.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Adam Audio A7X</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+
+							</a>
 							<!-- /.equipment__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/6.png" alt="Microphone">
 								</div>
@@ -345,12 +535,29 @@
 									<strong>Beyerdynamics 990</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/6.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Adam Audio A7X</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+
+							</a>
 							<!-- /.equipment__items -->
 						</div>
 						<!-- /.col-lg-4 -->
 						<div class="col-lg-4">
-							<div class="equipment__items">
+							<a href="#" data-effect="mfp-zoom-out" class="equipment__items">
 								<div class="equipment__items-img">
 									<img src="images/dest/equi/7.png" alt="Microphone">
 								</div>
@@ -360,7 +567,24 @@
 									<strong>KRK 10S2</strong>
 								</div>
 								<!-- /.equipment__items-title -->
-							</div>
+
+								<div class="services__modal mfp-with-anim mfp-hide">
+									<div class="equi__img">
+										<img src="images/dest/equi/7.png" alt="Image">
+									</div>
+									<!-- /.services__modal-img -->
+									<div class="services__modal-title">Adam Audio A7X</div>
+									<!-- /.services__title -->
+									<div class="services__modal-desc">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore neque quas dignissimos odio
+										adipisci assumenda, sed, nesciunt nostrum natus officiis aperiam accusamus sapiente. Sunt vero illo
+										debitis enim laborum ipsum?
+									</div>
+									<!-- /.services__description -->
+								</div>
+								<!-- /.services__modal -->
+
+							</a>
 							<!-- /.equipment__items -->
 						</div>
 						<!-- /.col-lg-4 -->
@@ -380,7 +604,7 @@
 			</section>
 			<!-- /#equipment.section s-equipment -->
 
-			<section class="callback__form">
+			<section class="callback__form" id="book">
 				<div class="container">
 					<div class="row no-gutters align-items-center">
 						<div class="col-lg-6">
@@ -432,13 +656,14 @@
 			</section>
 			<!-- /.section s-partners -->
 
-			<section class="s-contacts">
+			<section class="s-contacts" id="locations">
 				<div class="container-fluid">
 					<div class="row align-items-center">
 						<div class="col-lg-3 offset-lg-3">
 							<h2 class="h2">Address</h2>
 							<ul class="contacts">
-								<li><a href="#" target="_blank"><i class="fa fa-map-marker fa-fw"></i>Lorem ipsum dolor sit amet</a></li>
+								<li><a href="#" target="_blank"><i class="fa fa-map-marker fa-fw"></i>Lorem ipsum dolor sit amet</a>
+								</li>
 								<li><a href="#" target="_blank"><i class="fa fa-phone fa-fw"></i>+8 900 900 0000</a></li>
 								<li><a href="#" target="_blank"><i class="fa fa-envelope fa-fw"></i>example@sssr.ca</a></li>
 							</ul>
@@ -483,11 +708,14 @@
 		<!-- /.main__footer -->
 
 		<div id="play">
-			<span id="circle-1"></span>
-			<span id="circle-2"></span>
-			<span id="circle-3"></span>
-			<i id="play-icon" class="fa fa-play-circle"></i>
+			<i id="play-icon" class="fa fa-play-circle">
+				<span id="circle-1"></span>
+				<span id="circle-2"></span>
+				<span id="circle-3"></span>
+			</i>
+			<p>Click to listen to<br> demo version</p>
 		</div>
+
 
 	</div>
 	<!-- /.wrapper -->

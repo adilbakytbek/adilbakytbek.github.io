@@ -18,19 +18,47 @@
 
 </head>
 
-<body>
+<body id="body">
 
 	<!-- Developed by UxCodes -->
 
 
 	<div class="loader" id="page-loader">
-		<div class="preloader__wrapper">
-			<div class="prelaoder-block"></div>
-			<div class="prelaoder-block"></div>
-			<div class="prelaoder-block"></div>
-			<div class="prelaoder-block"></div>
-			<div class="prelaoder-block"></div>
+		<div class="loader__wrapper">
+			<svg width="135" height="140" viewBox="0 0 135 140" xmlns="http://www.w3.org/2000/svg" fill="#DAAF76">
+				<rect y="10" width="15" height="120" rx="6">
+					<animate attributeName="height" begin="0.5s" dur="1s" values="120;110;100;90;80;70;60;50;40;140;120"
+						calcMode="linear" repeatCount="indefinite" />
+					<animate attributeName="y" begin="0.5s" dur="1s" values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+						repeatCount="indefinite" />
+				</rect>
+				<rect x="30" y="10" width="15" height="120" rx="6">
+					<animate attributeName="height" begin="0.25s" dur="1s" values="120;110;100;90;80;70;60;50;40;140;120"
+						calcMode="linear" repeatCount="indefinite" />
+					<animate attributeName="y" begin="0.25s" dur="1s" values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+						repeatCount="indefinite" />
+				</rect>
+				<rect x="60" width="15" height="140" rx="6">
+					<animate attributeName="height" begin="0s" dur="1s" values="120;110;100;90;80;70;60;50;40;140;120"
+						calcMode="linear" repeatCount="indefinite" />
+					<animate attributeName="y" begin="0s" dur="1s" values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+						repeatCount="indefinite" />
+				</rect>
+				<rect x="90" y="10" width="15" height="120" rx="6">
+					<animate attributeName="height" begin="0.25s" dur="1s" values="120;110;100;90;80;70;60;50;40;140;120"
+						calcMode="linear" repeatCount="indefinite" />
+					<animate attributeName="y" begin="0.25s" dur="1s" values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+						repeatCount="indefinite" />
+				</rect>
+				<rect x="120" y="10" width="15" height="120" rx="6">
+					<animate attributeName="height" begin="0.5s" dur="1s" values="120;110;100;90;80;70;60;50;40;140;120"
+						calcMode="linear" repeatCount="indefinite" />
+					<animate attributeName="y" begin="0.5s" dur="1s" values="10;15;20;25;30;35;40;45;50;0;10" calcMode="linear"
+						repeatCount="indefinite" />
+				</rect>
+			</svg>
 		</div>
+		<!-- /.loader__wrapper -->
 	</div>
 
 	<audio src="main.mp3" id="audio" type="audio/mpeg">
@@ -40,10 +68,6 @@
 	<div class="wrapper">
 		<main class="main__content">
 
-			<!-- <audio preload="auto" loop autoplay>
-				<source src="main.mp3">
-				<p>Ваш браузер не поддерживает аудио</p>
-				</audio> -->
 			<header class="main__header" id="home">
 				<div class="top__line">
 					<div class="container">
@@ -182,7 +206,8 @@
 					<div class="row">
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/1.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/1.jpg');">
 								<h4 class="services__items-title">Recording</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -205,7 +230,8 @@
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/2.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/2.jpg');">
 								<h4 class="services__items-title">Mastering</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -228,7 +254,8 @@
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/3.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/3.jpg');">
 								<h4 class="services__items-title">Mixing</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -251,7 +278,8 @@
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/4.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/4.jpg');">
 								<h4 class="services__items-title">Beat<br> Development</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -274,7 +302,8 @@
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/5.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/5.jpg');">
 								<h4 class="services__items-title">Art Covers</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -297,7 +326,8 @@
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/6.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/6.jpg');">
 								<h4 class="services__items-title">Music Videos</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -320,7 +350,8 @@
 						<!-- /.col-lg-4 -->
 
 						<div class="col-lg-4">
-							<a href="#" data-effect="mfp-move-horizontal" class="services__items" style="background-image: url('images/dest/services-bg/7.jpg');">
+							<a href="#" data-effect="mfp-move-horizontal" class="services__items"
+								style="background-image: url('images/dest/services-bg/7.jpg');">
 								<h4 class="services__items-title">Brand<br> Development</h4>
 								<!-- /.services__items-title -->
 								<div class="services__modal mfp-with-anim mfp-hide">
@@ -451,7 +482,7 @@
 									<!-- /.services__description -->
 								</div>
 								<!-- /.services__modal -->
-	
+
 							</a>
 							<!-- /.equipment__items -->
 
